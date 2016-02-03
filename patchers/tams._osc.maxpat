@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 332.0, 316.0, 727.0, 346.0 ],
+		"rect" : [ 332.0, 316.0, 721.0, 346.0 ],
 		"bgcolor" : [ 0.952337, 0.952337, 0.952337, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,7 +38,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 15.0, 75.0, 109.0, 20.0 ],
-					"presentation_rect" : [ 15.0, 76.0, 0.0, 0.0 ],
 					"text" : "route list int float"
 				}
 
@@ -53,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 180.0, 51.0, 20.0 ],
-					"presentation_rect" : [ 34.0, 150.0, 0.0, 0.0 ],
 					"text" : "append"
 				}
 
@@ -67,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 135.0, 74.0, 20.0 ],
+					"patching_rect" : [ 615.0, 135.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -95,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 645.0, 105.0, 69.0, 20.0 ],
+					"patching_rect" : [ 615.0, 105.0, 69.0, 20.0 ],
 					"text" : "route ramp"
 				}
 
@@ -125,7 +123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 69.0, 20.0 ],
+					"patching_rect" : [ 0.0, 0.0, 105.0, 20.0 ],
 					"text" : "tams._osc",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -141,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 255.0, 240.0, 74.0 ],
+					"patching_rect" : [ 450.0, 255.0, 240.0, 74.0 ],
 					"text" : "• First argument sets default frequency.\n• Second argument sets default amplitude.\n• @ramp attribute sets default ramp time for single input values (rather than pairs).\n• Defaults are 440Hz, 0., and 50ms."
 				}
 
@@ -229,7 +227,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 300.0, 101.0, 20.0 ],
-					"presentation_rect" : [ 45.0, 138.0, 0.0, 0.0 ],
 					"text" : "sine wave output"
 				}
 
@@ -270,8 +267,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 45.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 80.0, 30.0, 0.0, 0.0 ]
+					"patching_rect" : [ 240.0, 45.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -369,7 +365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 0.0, 657.0, 20.0 ],
+					"patching_rect" : [ 105.0, 0.0, 615.0, 20.0 ],
 					"text" : "oscillator with variable frequency & amplitude"
 				}
 
