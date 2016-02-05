@@ -30,6 +30,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "tams._template", "short description of module function" ],
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "tams._modulebar.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -38,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 300.0, 143.0, 20.0 ],
-					"presentation_rect" : [ 45.0, 314.0, 0.0, 0.0 ],
 					"text" : "outlet comment"
 				}
 
@@ -80,42 +91,16 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 105.0, 20.0 ],
-					"text" : "tams._template",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 0.0, 615.0, 20.0 ],
-					"text" : "short description of module function"
-				}
-
-			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "tams._modulebar.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }

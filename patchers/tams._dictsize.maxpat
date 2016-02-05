@@ -30,6 +30,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "tams._dictsize", "get size of cue dictionary, i.e. number of instrument modules" ],
+					"id" : "obj-3",
+					"maxclass" : "bpatcher",
+					"name" : "tams._modulebar.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.8, 0.84, 0.7, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -167,39 +179,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 105.0, 20.0 ],
-					"text" : "tams._dictsize",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 0.0, 615.0, 20.0 ],
-					"text" : "get size of cue dictionary, i.e. number of instrument modules"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -267,6 +246,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "tams._dict.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tams._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
