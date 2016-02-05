@@ -49,7 +49,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 300.0, 161.0, 20.0 ],
+					"patching_rect" : [ 285.0, 300.0, 161.0, 20.0 ],
 					"text" : "dictionary reloaded/changed"
 				}
 
@@ -61,7 +61,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 300.0, 25.0, 25.0 ]
+					"patching_rect" : [ 255.0, 300.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 45.0, 195.0, 169.0, 20.0 ],
+					"patching_rect" : [ 75.0, 195.0, 199.0, 20.0 ],
 					"text" : "t s b"
 				}
 
@@ -86,7 +86,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 300.0, 25.0, 25.0 ]
+					"patching_rect" : [ 195.0, 300.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -97,7 +97,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 300.0, 25.0, 25.0 ]
+					"patching_rect" : [ 135.0, 300.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 300.0, 25.0, 25.0 ]
+					"patching_rect" : [ 75.0, 300.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 225.0, 82.0, 20.0 ],
+					"patching_rect" : [ 75.0, 225.0, 82.0, 20.0 ],
 					"text" : "prepend read"
 				}
 
@@ -137,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 45.0, 135.0, 36.0, 20.0 ],
+					"patching_rect" : [ 75.0, 135.0, 36.0, 20.0 ],
 					"text" : "sel 1"
 				}
 
@@ -152,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 105.0, 70.0, 20.0 ],
+					"patching_rect" : [ 75.0, 105.0, 70.0, 20.0 ],
 					"text" : "route cuedl"
 				}
 
@@ -167,7 +167,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 75.0, 114.0, 20.0 ],
+					"patching_rect" : [ 75.0, 75.0, 114.0, 20.0 ],
 					"text" : "receive tams.hooks"
 				}
 
@@ -181,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 165.0, 83.0, 18.0 ],
+					"patching_rect" : [ 75.0, 165.0, 83.0, 18.0 ],
 					"text" : "cue-data.json"
 				}
 
@@ -196,13 +196,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 15.0, 270.0, 154.0, 20.0 ],
+					"patching_rect" : [ 15.0, 270.0, 199.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict cues cue-data.json"
+					"text" : "dict tams.cues cue-data.json"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 45.0, 143.0, 20.0 ],
+					"patching_rect" : [ 45.0, 45.0, 133.0, 20.0 ],
 					"text" : "messages to dictionary"
 				}
 
