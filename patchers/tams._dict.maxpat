@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 721.0, 346.0 ],
+		"rect" : [ 514.0, 166.0, 721.0, 346.0 ],
 		"bgcolor" : [ 0.952337, 0.952337, 0.952337, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -73,9 +73,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 75.0, 195.0, 199.0, 20.0 ],
-					"text" : "t s b"
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 75.0, 195.0, 79.0, 20.0 ],
+					"text" : "t b s"
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 225.0, 82.0, 20.0 ],
+					"patching_rect" : [ 135.0, 225.0, 82.0, 20.0 ],
 					"text" : "prepend read"
 				}
 
@@ -285,7 +285,7 @@
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -294,7 +294,8 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
+					"midpoints" : [ 84.5, 257.0, 264.5, 257.0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
