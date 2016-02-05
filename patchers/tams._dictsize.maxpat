@@ -30,6 +30,31 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 225.0, 300.0, 242.0, 20.0 ],
+					"text" : "internal dictionary reloaded/changed (bang)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "internal dictionary reloaded/changed (bang)",
+					"id" : "obj-5",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 195.0, 300.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "tams._dictsize", "get size of cue dictionary, i.e. number of instrument modules" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
@@ -123,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "bang" ],
-					"patching_rect" : [ 15.0, 165.0, 73.0, 20.0 ],
+					"patching_rect" : [ 15.0, 165.0, 199.0, 20.0 ],
 					"text" : "tams._dict"
 				}
 
@@ -186,6 +211,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 4 ]
 				}
 
 			}
