@@ -53,7 +53,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 525.0, 101.0, 20.0 ],
-					"presentation_rect" : [ 15.0, 646.0, 0.0, 0.0 ],
 					"text" : "send tams.hooks"
 				}
 
@@ -157,7 +156,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 66.0, 523.0, 104.0, 218.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -186,7 +185,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 190.0, 73.0, 20.0 ],
+									"patching_rect" : [ 15.0, 135.0, 73.0, 20.0 ],
 									"text" : "fromsymbol"
 								}
 
@@ -201,7 +200,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 160.0, 49.0, 20.0 ],
+									"patching_rect" : [ 15.0, 105.0, 49.0, 20.0 ],
 									"text" : "zl.iter 1"
 								}
 
@@ -216,7 +215,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 68.0, 20.0 ],
+									"patching_rect" : [ 15.0, 45.0, 68.0, 20.0 ],
 									"text" : "t getkeys s"
 								}
 
@@ -231,7 +230,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 50.0, 130.0, 59.5, 20.0 ],
+									"patching_rect" : [ 15.0, 75.0, 59.5, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -249,7 +248,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -260,7 +259,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 270.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 165.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -359,7 +358,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 65.0, 270.0, 193.0, 207.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -388,7 +387,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 190.0, 67.0, 20.0 ],
+									"patching_rect" : [ 15.0, 135.0, 67.0, 20.0 ],
 									"text" : "route cues"
 								}
 
@@ -403,7 +402,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 130.0, 75.0, 20.0 ],
+									"patching_rect" : [ 15.0, 75.0, 75.0, 20.0 ],
 									"text" : "prepend get"
 								}
 
@@ -418,7 +417,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "cues", "" ],
-									"patching_rect" : [ 50.0, 100.0, 108.0, 20.0 ],
+									"patching_rect" : [ 15.0, 45.0, 108.0, 20.0 ],
 									"text" : "t cues s"
 								}
 
@@ -433,7 +432,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 50.0, 160.0, 108.0, 20.0 ],
+									"patching_rect" : [ 15.0, 105.0, 108.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -453,7 +452,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 139.0, 130.0, 73.0, 20.0 ],
+									"patching_rect" : [ 104.0, 75.0, 73.0, 20.0 ],
 									"text" : "fromsymbol"
 								}
 
@@ -466,7 +465,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -477,7 +476,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 270.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 165.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -585,7 +584,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 65.0, 44.0, 186.0, 180.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -614,7 +613,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 50.0, 160.0, 132.0, 20.0 ],
+									"patching_rect" : [ 15.0, 105.0, 132.0, 20.0 ],
 									"text" : "regexp .+\\\\[\\\\d+\\\\]\\\\s(.+)"
 								}
 
@@ -629,7 +628,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "dictionary", "", "", "", "bang" ],
-									"patching_rect" : [ 50.0, 130.0, 73.0, 20.0 ],
+									"patching_rect" : [ 15.0, 75.0, 73.0, 20.0 ],
 									"text" : "tams._dict"
 								}
 
@@ -644,7 +643,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 155.0, 20.0 ],
+									"patching_rect" : [ 15.0, 45.0, 155.0, 20.0 ],
 									"text" : "sprintf get instruments[%ld]"
 								}
 
@@ -657,7 +656,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -668,7 +667,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 78.0, 240.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 135.0, 25.0, 25.0 ]
 								}
 
 							}
