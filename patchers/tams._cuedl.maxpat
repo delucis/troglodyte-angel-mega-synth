@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 332.0, 316.0, 721.0, 346.0 ],
+		"rect" : [ 332.0, 350.0, 721.0, 346.0 ],
 		"bgcolor" : [ 0.952337, 0.952337, 0.952337, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,6 +30,49 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 345.0, 285.0, 303.0, 18.0 ],
+					"text" : "ERROR: Cue download failed. No internet connection?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.8, 0.84, 0.7, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 15.0, 225.0, 679.0, 20.0 ],
+					"text" : "route 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.8, 0.84, 0.7, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 345.0, 315.0, 69.0, 20.0 ],
+					"text" : "print TAMS"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "tams._cuedl", "download cue file from server, save to disk, and output refresh hook" ],
 					"id" : "obj-4",
 					"maxclass" : "bpatcher",
@@ -49,20 +92,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 255.0, 49.0, 18.0 ],
+					"patching_rect" : [ 225.0, 285.0, 49.0, 18.0 ],
 					"text" : "cuedl 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 285.0, 101.0, 20.0 ],
+					"patching_rect" : [ 225.0, 315.0, 101.0, 20.0 ],
 					"text" : "send tams.hooks"
 				}
 
@@ -92,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 285.0, 161.0, 20.0 ],
+					"patching_rect" : [ 45.0, 315.0, 161.0, 20.0 ],
 					"text" : "bang on download complete"
 				}
 
@@ -104,12 +148,13 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 285.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 315.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.8, 0.84, 0.7, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
@@ -117,13 +162,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 15.0, 225.0, 32.5, 20.0 ],
+					"patching_rect" : [ 15.0, 255.0, 229.0, 20.0 ],
 					"text" : "b"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.8, 0.84, 0.7, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-23",
@@ -175,7 +221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 135.0, 107.0, 20.0 ],
+					"patching_rect" : [ 345.0, 105.0, 107.0, 20.0 ],
 					"text" : "prepend defaultdir"
 				}
 
@@ -190,7 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 45.0, 89.0, 20.0 ],
+					"patching_rect" : [ 345.0, 45.0, 89.0, 20.0 ],
 					"text" : "loadmess path"
 				}
 
@@ -205,7 +251,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 315.0, 75.0, 69.0, 20.0 ],
+					"patching_rect" : [ 345.0, 75.0, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -288,6 +334,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -306,7 +361,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
@@ -369,9 +424,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 354.5, 158.5, 24.5, 158.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
