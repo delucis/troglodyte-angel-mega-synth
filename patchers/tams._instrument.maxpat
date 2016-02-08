@@ -42,7 +42,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 450.0, 255.0, 46.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.0, 45.0, 79.0, 18.0 ],
+					"presentation_rect" : [ 135.0, 47.0, 90.0, 18.0 ],
 					"prototypename" : "pan",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -120,7 +120,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
 					"fontname" : "System Font Regular",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -128,11 +127,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 255.0, 150.0, 21.0 ],
+					"patching_rect" : [ 555.0, 255.0, 142.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 240.0, 21.0 ],
+					"presentation_rect" : [ 30.0, 8.0, 184.0, 21.0 ],
 					"text" : "flute/flûte",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}
 
 			}
@@ -246,11 +245,10 @@
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"orientation" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 120.0, 255.0, 100.0, 5.0 ],
+					"patching_rect" : [ 120.0, 255.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 75.0, 240.0, 5.0 ]
+					"presentation_rect" : [ 15.0, 15.0, 5.0, 60.0 ]
 				}
 
 			}
@@ -271,7 +269,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 330.0, 255.0, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 95.0, 45.0, 79.0, 18.0 ],
+					"presentation_rect" : [ 30.0, 57.0, 90.0, 18.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -326,7 +324,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 15.0, 255.0, 59.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 79.0, 18.0 ],
+					"presentation_rect" : [ 30.0, 38.0, 90.0, 18.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -500,7 +498,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 225.0, 720.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 270.0, 90.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 240.0, 90.0 ]
 				}
 
 			}
@@ -732,9 +730,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
 			"obj-78" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-81" : [ "live.numbox[1]", "live.numbox[1]", 0 ]
+			"obj-81" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
+			"obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
