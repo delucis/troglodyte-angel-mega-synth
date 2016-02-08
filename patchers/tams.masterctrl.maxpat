@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.0, 285.0, 104.0, 20.0 ],
+					"text" : "loadmess firstcue"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -60,7 +74,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 618.0, 101.0, 253.0, 210.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -89,7 +103,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 50.0, 160.0, 79.0, 20.0 ],
+									"patching_rect" : [ 15.0, 105.0, 79.0, 20.0 ],
 									"text" : "t b i"
 								}
 
@@ -104,7 +118,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "inccue" ],
-									"patching_rect" : [ 50.0, 190.0, 52.0, 20.0 ],
+									"patching_rect" : [ 15.0, 135.0, 52.0, 20.0 ],
 									"text" : "t inccue"
 								}
 
@@ -119,7 +133,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 130.0, 169.0, 20.0 ],
+									"patching_rect" : [ 15.0, 75.0, 169.0, 20.0 ],
 									"text" : "i"
 								}
 
@@ -134,7 +148,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 200.0, 100.0, 73.0, 20.0 ],
+									"patching_rect" : [ 165.0, 45.0, 73.0, 20.0 ],
 									"text" : "fromsymbol"
 								}
 
@@ -149,7 +163,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 190.0, 99.0, 20.0 ],
+									"patching_rect" : [ 75.0, 135.0, 99.0, 20.0 ],
 									"text" : "prepend playcue"
 								}
 
@@ -162,7 +176,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -174,7 +188,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 200.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 165.0, 15.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -185,7 +199,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 75.0, 270.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 165.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -608,7 +622,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 420.0, 240.0, 195.0, 30.0 ],
+					"patching_rect" : [ 405.0, 240.0, 195.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 165.0, 240.0, 30.0 ],
 					"text" : "Download latest cue file",
@@ -626,7 +640,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 420.0, 285.0, 75.0, 20.0 ],
+					"patching_rect" : [ 405.0, 285.0, 75.0, 20.0 ],
 					"text" : "tams._cuedl"
 				}
 
@@ -640,7 +654,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 420.0, 315.0, 119.0, 20.0 ],
+					"patching_rect" : [ 405.0, 315.0, 119.0, 20.0 ],
 					"text" : "tams._cueprocessor"
 				}
 
@@ -701,6 +715,7 @@
 							"parameter_longname" : "live.numbox",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
+							"parameter_mmax" : 2000.0,
 							"parameter_unitstyle" : 0
 						}
 
@@ -1133,6 +1148,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
