@@ -390,7 +390,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "clear" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -695,7 +695,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 600.0, 90.0, 110.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 105.0, 236.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 105.0, 240.0, 45.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
