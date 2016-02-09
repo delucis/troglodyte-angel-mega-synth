@@ -148,8 +148,7 @@
 					"maxclass" : "bpatcher",
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 870.0, 255.0, 240.0, 90.0 ]
 				}
 
@@ -161,8 +160,7 @@
 					"maxclass" : "bpatcher",
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 615.0, 255.0, 240.0, 90.0 ]
 				}
 
@@ -174,8 +172,7 @@
 					"maxclass" : "bpatcher",
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 870.0, 150.0, 240.0, 90.0 ]
 				}
 
@@ -187,8 +184,7 @@
 					"maxclass" : "bpatcher",
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 615.0, 150.0, 240.0, 90.0 ]
 				}
 
@@ -200,8 +196,7 @@
 					"maxclass" : "bpatcher",
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 870.0, 45.0, 240.0, 90.0 ]
 				}
 
@@ -213,8 +208,7 @@
 					"maxclass" : "bpatcher",
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 615.0, 45.0, 240.0, 90.0 ]
 				}
 
@@ -233,26 +227,26 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-5::obj-10" : [ "live.numbox[6]", "live.numbox[1]", 0 ],
+			"obj-5::obj-78" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-4::obj-78" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-6::obj-81" : [ "live.numbox[14]", "live.numbox[1]", 0 ],
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-6::obj-78" : [ "live.numbox[6]", "live.numbox", 0 ],
-			"obj-5::obj-78" : [ "live.numbox[15]", "live.numbox", 0 ],
-			"obj-6::obj-10" : [ "live.numbox[4]", "live.numbox[1]", 0 ],
-			"obj-6::obj-81" : [ "live.numbox[5]", "live.numbox[1]", 0 ],
-			"obj-3::obj-81" : [ "live.numbox[11]", "live.numbox[1]", 0 ],
-			"obj-5::obj-81" : [ "live.numbox[14]", "live.numbox[1]", 0 ],
-			"obj-7::obj-81" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-2::obj-81" : [ "live.numbox[17]", "live.numbox[1]", 0 ],
+			"obj-7::obj-81" : [ "live.numbox[17]", "live.numbox[1]", 0 ],
+			"obj-2::obj-78" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-3::obj-78" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-2::obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
+			"obj-4::obj-81" : [ "live.numbox[12]", "live.numbox[1]", 0 ],
+			"obj-6::obj-10" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
+			"obj-3::obj-81" : [ "live.numbox[7]", "live.numbox[1]", 0 ],
+			"obj-2::obj-81" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-36::obj-10" : [ "live.gain~", "Output Volume", 0 ],
-			"obj-7::obj-78" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-4::obj-78" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-3::obj-78" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-5::obj-10" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
-			"obj-7::obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
-			"obj-4::obj-81" : [ "live.numbox[8]", "live.numbox[1]", 0 ],
-			"obj-3::obj-10" : [ "live.numbox[10]", "live.numbox[1]", 0 ],
-			"obj-2::obj-78" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-2::obj-10" : [ "live.numbox[16]", "live.numbox[1]", 0 ],
-			"obj-4::obj-10" : [ "live.numbox[7]", "live.numbox[1]", 0 ]
+			"obj-5::obj-81" : [ "live.numbox[4]", "live.numbox[1]", 0 ],
+			"obj-4::obj-10" : [ "live.numbox[10]", "live.numbox[1]", 0 ],
+			"obj-7::obj-78" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-7::obj-10" : [ "live.numbox[16]", "live.numbox[1]", 0 ],
+			"obj-3::obj-10" : [ "live.numbox[8]", "live.numbox[1]", 0 ],
+			"obj-6::obj-78" : [ "live.numbox[15]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
