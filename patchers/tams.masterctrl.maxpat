@@ -608,59 +608,6 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Download the latest cue-data.json file and update the patch",
-					"bgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"bgovercolor" : [ 0.156863, 0.156863, 0.156863, 1.0 ],
-					"border" : 0,
-					"fontface" : 1,
-					"fontname" : "System Font Regular",
-					"fontsize" : 12.0,
-					"hint" : "Download the latest cue-data.json file and update the patch",
-					"id" : "obj-3",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 240.0, 195.0, 30.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 165.0, 240.0, 30.0 ],
-					"text" : "Download latest cue file",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 405.0, 285.0, 75.0, 20.0 ],
-					"text" : "tams._cuedl"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 405.0, 315.0, 119.0, 20.0 ],
-					"text" : "tams._cueprocessor"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
@@ -1144,15 +1091,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1239,34 +1177,6 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "tams._modulebar.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._cueprocessor.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._dictsize.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._dict.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._cuedl.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
