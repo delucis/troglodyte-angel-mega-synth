@@ -32,20 +32,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 285.0, 104.0, 20.0 ],
-					"text" : "loadmess firstcue"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -404,7 +390,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -414,7 +400,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 163.0, 210.0 ],
+						"rect" : [ 50.0, 94.0, 266.0, 210.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -456,10 +442,10 @@
 									"id" : "obj-86",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "clear" ],
-									"patching_rect" : [ 15.0, 45.0, 120.0, 20.0 ],
-									"text" : "t getkeys clear"
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "clear" ],
+									"patching_rect" : [ 15.0, 45.0, 229.0, 20.0 ],
+									"text" : "t 0 getkeys clear"
 								}
 
 							}
@@ -473,7 +459,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 105.0, 49.0, 20.0 ],
+									"patching_rect" : [ 120.0, 105.0, 49.0, 20.0 ],
 									"text" : "zl.iter 1"
 								}
 
@@ -488,7 +474,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 135.0, 98.0, 20.0 ],
+									"patching_rect" : [ 120.0, 135.0, 98.0, 20.0 ],
 									"text" : "prepend append"
 								}
 
@@ -503,7 +489,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "dictionary", "", "", "", "bang" ],
-									"patching_rect" : [ 15.0, 75.0, 102.0, 20.0 ],
+									"patching_rect" : [ 120.0, 75.0, 102.0, 20.0 ],
 									"text" : "tams._masterdict"
 								}
 
@@ -543,7 +529,7 @@
 									"destination" : [ "obj-86", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 107.5, 100.0, 9.0, 100.0, 9.0, 42.0, 24.5, 42.0 ],
+									"midpoints" : [ 212.5, 100.0, 253.0, 100.0, 253.0, 39.0, 24.5, 39.0 ],
 									"source" : [ "obj-62", 4 ]
 								}
 
@@ -571,8 +557,17 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 125.5, 159.5, 24.5, 159.5 ],
-									"source" : [ "obj-86", 1 ]
+									"midpoints" : [ 234.5, 159.5, 24.5, 159.5 ],
+									"source" : [ "obj-86", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-86", 0 ]
 								}
 
 							}
@@ -581,7 +576,7 @@
 									"destination" : [ "obj-62", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-86", 0 ]
+									"source" : [ "obj-86", 1 ]
 								}
 
 							}
@@ -1086,15 +1081,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-100", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
