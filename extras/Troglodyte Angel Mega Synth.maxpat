@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 60.0, 93.0, 1172.0, 632.0 ],
+		"rect" : [ 60.0, 44.0, 1172.0, 701.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -35,7 +35,7 @@
 					"name" : "tams.cueloader.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 508.5, 240.0, 75.0 ]
+					"patching_rect" : [ 315.0, 75.0, 240.0, 75.0 ]
 				}
 
 			}
@@ -46,7 +46,7 @@
 					"name" : "tams._speakertest.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 405.0, 240.0, 30.0 ]
+					"patching_rect" : [ 315.0, 600.0, 240.0, 30.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 493.5, 255.0, 23.0 ],
+					"patching_rect" : [ 30.0, 43.5, 255.0, 23.0 ],
 					"text" : "Set-up Checklist",
 					"textcolor" : [ 0.657731, 0.657731, 0.657731, 1.0 ],
 					"underline" : 1
@@ -72,12 +72,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-12",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 523.5, 255.0, 63.0 ],
-					"text" : "1. Turn on the audio\n2. Test output\n3. Turn on keyboard shortcuts (optional)\n4. Trigger first cue",
+					"patching_rect" : [ 30.0, 73.5, 255.0, 77.0 ],
+					"text" : "1. Make sure the correct piece is selected\n2. Turn on the audio\n3. Test output\n4. Turn on keyboard shortcuts (optional)\n5. Trigger first cue",
 					"textcolor" : [ 0.657731, 0.657731, 0.657731, 1.0 ]
 				}
 
@@ -121,7 +121,7 @@
 					"name" : "tams.masterout.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 300.0, 495.0, 90.0 ]
+					"patching_rect" : [ 60.0, 495.0, 495.0, 90.0 ]
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 255.0, 240.0, 90.0 ]
+					"patching_rect" : [ 870.0, 285.0, 240.0, 90.0 ]
 				}
 
 			}
@@ -145,7 +145,7 @@
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 255.0, 240.0, 90.0 ]
+					"patching_rect" : [ 615.0, 285.0, 240.0, 90.0 ]
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 150.0, 240.0, 90.0 ]
+					"patching_rect" : [ 870.0, 180.0, 240.0, 90.0 ]
 				}
 
 			}
@@ -169,7 +169,7 @@
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 150.0, 240.0, 90.0 ]
+					"patching_rect" : [ 615.0, 180.0, 240.0, 90.0 ]
 				}
 
 			}
@@ -181,7 +181,7 @@
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 870.0, 45.0, 240.0, 90.0 ]
+					"patching_rect" : [ 870.0, 75.0, 240.0, 90.0 ]
 				}
 
 			}
@@ -193,7 +193,7 @@
 					"name" : "tams._instrument.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 45.0, 240.0, 90.0 ]
+					"patching_rect" : [ 615.0, 75.0, 240.0, 90.0 ]
 				}
 
 			}
@@ -204,33 +204,33 @@
 					"name" : "tams.masterctrl.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 45.0, 495.0, 195.0 ]
+					"patching_rect" : [ 60.0, 225.0, 495.0, 195.0 ]
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-81" : [ "live.numbox[12]", "live.numbox[1]", 0 ],
-			"obj-6::obj-81" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
-			"obj-7::obj-78" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-4::obj-78" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-6::obj-10" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
+			"obj-7::obj-10" : [ "live.numbox[17]", "live.numbox[1]", 0 ],
 			"obj-2::obj-81" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-3::obj-10" : [ "live.numbox[8]", "live.numbox[1]", 0 ],
+			"obj-3::obj-81" : [ "live.numbox[8]", "live.numbox[1]", 0 ],
 			"obj-4::obj-10" : [ "live.numbox[10]", "live.numbox[1]", 0 ],
 			"obj-7::obj-81" : [ "live.numbox[18]", "live.numbox[1]", 0 ],
-			"obj-7::obj-10" : [ "live.numbox[16]", "live.numbox[1]", 0 ],
-			"obj-3::obj-78" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-7::obj-78" : [ "live.numbox[16]", "live.numbox", 0 ],
+			"obj-3::obj-10" : [ "live.numbox[7]", "live.numbox[1]", 0 ],
 			"obj-5::obj-81" : [ "live.numbox[6]", "live.numbox[1]", 0 ],
 			"obj-2::obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
-			"obj-6::obj-10" : [ "live.numbox[15]", "live.numbox[1]", 0 ],
-			"obj-5::obj-10" : [ "live.numbox[4]", "live.numbox[1]", 0 ],
+			"obj-6::obj-78" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-5::obj-78" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-36::obj-10" : [ "live.gain~", "Output Volume", 0 ],
-			"obj-5::obj-78" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-4::obj-78" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-6::obj-78" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-5::obj-10" : [ "live.numbox[5]", "live.numbox[1]", 0 ],
+			"obj-4::obj-81" : [ "live.numbox[11]", "live.numbox[1]", 0 ],
+			"obj-6::obj-81" : [ "live.numbox[14]", "live.numbox[1]", 0 ],
 			"obj-2::obj-78" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-3::obj-81" : [ "live.numbox[9]", "live.numbox[1]", 0 ]
+			"obj-3::obj-78" : [ "live.numbox[9]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
