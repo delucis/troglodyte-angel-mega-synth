@@ -1,5 +1,5 @@
 # troglodyte-angel-mega-synth
-:violin: Central audio synthesis hub for Clara Iannotta’s [Troglodyte Angels Clank By](http://claraiannotta.com/works/ensemble/troglodyte-angels-clank-by-2015/).
+:violin: Central audio synthesis hub for Clara Iannotta’s [*Troglodyte Angels Clank By*](http://claraiannotta.com/works/ensemble/troglodyte-angels-clank-by-2015/) and *sotto voce stuff*.
 
 ## Instructions
 
