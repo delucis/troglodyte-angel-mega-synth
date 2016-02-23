@@ -30,6 +30,48 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 330.0, 30.0, 72.0, 20.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 330.0, 105.0, 113.0, 20.0 ],
+					"text" : "prepend workprefix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 330.0, 135.0, 101.0, 20.0 ],
+					"text" : "send tams.hooks"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"align" : 1,
 					"annotation" : "Next cue to be triggered by ‘Play Next’",
 					"arrowbgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
@@ -47,24 +89,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 30.0, 105.0, 30.0 ],
+					"patching_rect" : [ 330.0, 60.0, 105.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 0.0, 135.0, 30.0 ],
 					"textcolor" : [ 0.533333, 0.533333, 0.533333, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 75.0, 295.0, 20.0 ],
-					"text" : "sprintf http://www.claraiannotta.com/%s/cue-data.json"
 				}
 
 			}
@@ -84,7 +112,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 105.0, 195.0, 30.0 ],
+					"patching_rect" : [ 15.0, 60.0, 195.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 45.0, 240.0, 30.0 ],
 					"text" : "Download latest cue file",
@@ -102,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 150.0, 75.0, 20.0 ],
+					"patching_rect" : [ 15.0, 105.0, 75.0, 20.0 ],
 					"text" : "tams._cuedl"
 				}
 
@@ -116,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 180.0, 119.0, 20.0 ],
+					"patching_rect" : [ 15.0, 135.0, 119.0, 20.0 ],
 					"text" : "tams._cueprocessor"
 				}
 
@@ -144,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 34.5, 84.0, 21.0 ],
+					"patching_rect" : [ 240.0, 64.5, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 4.5, 105.0, 21.0 ],
 					"text" : "Select piece:",
@@ -165,16 +193,25 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-80", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-80", 1 ]
