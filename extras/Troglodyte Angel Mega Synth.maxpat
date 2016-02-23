@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 60.0, 93.0, 1172.0, 586.0 ],
+		"rect" : [ 60.0, 93.0, 1172.0, 632.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,6 +30,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "bpatcher",
+					"name" : "tams.cueloader.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 508.5, 240.0, 75.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "tams._speakertest.maxpat",
@@ -48,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 448.5, 495.0, 23.0 ],
+					"patching_rect" : [ 60.0, 493.5, 255.0, 23.0 ],
 					"text" : "Set-up Checklist",
 					"textcolor" : [ 0.657731, 0.657731, 0.657731, 1.0 ],
 					"underline" : 1
@@ -65,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 478.5, 495.0, 63.0 ],
+					"patching_rect" : [ 60.0, 523.5, 255.0, 63.0 ],
 					"text" : "1. Turn on the audio\n2. Test output\n3. Turn on keyboard shortcuts (optional)\n4. Trigger first cue",
 					"textcolor" : [ 0.657731, 0.657731, 0.657731, 1.0 ]
 				}
@@ -201,25 +212,25 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-4::obj-81" : [ "live.numbox[12]", "live.numbox[1]", 0 ],
-			"obj-6::obj-10" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
-			"obj-7::obj-10" : [ "live.numbox[17]", "live.numbox[1]", 0 ],
-			"obj-2::obj-78" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-6::obj-81" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
+			"obj-7::obj-78" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-2::obj-81" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-3::obj-78" : [ "live.numbox[8]", "live.numbox", 0 ],
-			"obj-4::obj-78" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-7::obj-78" : [ "live.numbox[18]", "live.numbox", 0 ],
-			"obj-7::obj-81" : [ "live.numbox[16]", "live.numbox[1]", 0 ],
-			"obj-3::obj-81" : [ "live.numbox[7]", "live.numbox[1]", 0 ],
-			"obj-5::obj-78" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-3::obj-10" : [ "live.numbox[8]", "live.numbox[1]", 0 ],
+			"obj-4::obj-10" : [ "live.numbox[10]", "live.numbox[1]", 0 ],
+			"obj-7::obj-81" : [ "live.numbox[18]", "live.numbox[1]", 0 ],
+			"obj-7::obj-10" : [ "live.numbox[16]", "live.numbox[1]", 0 ],
+			"obj-3::obj-78" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-5::obj-81" : [ "live.numbox[6]", "live.numbox[1]", 0 ],
 			"obj-2::obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
-			"obj-6::obj-81" : [ "live.numbox[15]", "live.numbox[1]", 0 ],
+			"obj-6::obj-10" : [ "live.numbox[15]", "live.numbox[1]", 0 ],
 			"obj-5::obj-10" : [ "live.numbox[4]", "live.numbox[1]", 0 ],
 			"obj-36::obj-10" : [ "live.gain~", "Output Volume", 0 ],
-			"obj-5::obj-81" : [ "live.numbox[5]", "live.numbox[1]", 0 ],
-			"obj-4::obj-10" : [ "live.numbox[11]", "live.numbox[1]", 0 ],
+			"obj-5::obj-78" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-4::obj-78" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-6::obj-78" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-2::obj-81" : [ "live.numbox[3]", "live.numbox[1]", 0 ],
-			"obj-3::obj-10" : [ "live.numbox[9]", "live.numbox[1]", 0 ]
+			"obj-2::obj-78" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-3::obj-81" : [ "live.numbox[9]", "live.numbox[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -231,34 +242,6 @@
 			}
 , 			{
 				"name" : "tams._modulebar.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._cueprocessor.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._dictsize.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._dict.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tams._cuedl.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -307,6 +290,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "tams._dict.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "tams._line.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -329,6 +319,34 @@
 			}
 , 			{
 				"name" : "tams._speakertest.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tams.cueloader.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tams._cueprocessor.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tams._dictsize.maxpat",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tams._cuedl.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/troglodyte-angel-mega-synth/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
